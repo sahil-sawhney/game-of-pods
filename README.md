@@ -21,4 +21,4 @@ Following cases were not mentioned in the assignment but had to be taken care of
 
 ### Explicit Fixes Required for Iron Gallery of Braavos assignement
 1. The instructions to deploy ingress is not very clear and is missprint. What it expects is creation of 2 paths for path based routing
-2. The type of *iron-gallery-service* should be **NodePort** with `nodePort: 30099` but this is not mentioned in the instructions while creating this service and gets clear when we look at instructions for setting up ingress.
+2. The type of *iron-gallery-service* should be **NodePort** with `nodePort: 30099` but this is not mentioned in the instructions for creating this service and gets clear when we look at instructions for setting up ingress.
