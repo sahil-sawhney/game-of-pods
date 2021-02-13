@@ -1,4 +1,4 @@
-# Step by step process to complete Voting app exercise
+# Step by step process to complete Iron Gallery exercise
 ---
 ### Starting point
 ![alt START](https://github.com/sahil-sawhney/game-of-pods/blob/main/images/iron-gallery/start.png?raw=true)
