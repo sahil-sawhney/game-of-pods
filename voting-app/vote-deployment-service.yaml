@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vote-deployment
+  namespace: vote
+  labels:
+    app: vote-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vote-deployment
+  template:
+    metadata:
+      labels:
+        app: vote-deployment
+    spec:
+      containers:
+      - name: voteing-app
+        image: kodekloud/examplevotingapp_vote:before
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vote-service
+  namespace: vote
+spec:
+  selector:
+    app: vote-deployment
+  type: NodePort
+  ports:
+  - port: 5000
+    targetPort: 80
+    nodePort: 31000
