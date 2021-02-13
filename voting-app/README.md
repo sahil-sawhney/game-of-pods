@@ -16,7 +16,7 @@ k apply -f vote-deployment-service.yaml
 ```
 ![alt VOTE PIC](https://github.com/sahil-sawhney/game-of-pods/blob/main/images/voting-app/completed-vote.png?raw=true)
 
-![alt VOTE  MAP PIC](https://github.com/sahil-sawhney/game-of-pods/blob/main/images/voting-app/completed-vote.png?raw=true)
+![alt VOTE  MAP PIC](https://github.com/sahil-sawhney/game-of-pods/blob/main/images/voting-app/completed-vote-map.png?raw=true)
 
 ### Redis Deployment And Service
 ```
