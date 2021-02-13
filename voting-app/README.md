@@ -1,3 +1,5 @@
+# Step by step process to complete Voting app exercise
+---
 ### Handy Preconfigration
 ```
 alias k=kubectl
@@ -12,16 +14,16 @@ k config set-context --current --namespace vote
 vi vote-deployment-service.yaml
 k apply -f vote-deployment-service.yaml
 ```
-![alt VOTE PIC](https://github.com/sahil-sawhney/game-of-pods/blob/main/images/voting-app/images/voting-app/completed-vote.png?raw=true)
+![alt VOTE PIC](https://github.com/sahil-sawhney/game-of-pods/blob/main/images/voting-app/completed-vote.png?raw=true)
 
-![alt VOTE  MAP PIC](https://github.com/sahil-sawhney/game-of-pods/blob/main/images/voting-app/images/voting-app/completed-vote.png?raw=true)
+![alt VOTE  MAP PIC](https://github.com/sahil-sawhney/game-of-pods/blob/main/images/voting-app/completed-vote.png?raw=true)
 
 ### Redis Deployment And Service
 ```
 vi redis-deployment-service.yaml
 k apply -f redis-deployment-service.yaml
 ```
-![alt REDIS PIC](https://github.com/sahil-sawhney/game-of-pods/blob/main/images/voting-app/images/voting-app/completed-redis-map.png?raw=true)
+![alt REDIS PIC](https://github.com/sahil-sawhney/game-of-pods/blob/main/images/voting-app/completed-redis-map.png?raw=true)
 
 ### Worker Deployment
 ```
